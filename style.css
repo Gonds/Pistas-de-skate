@@ -57,9 +57,9 @@ form {
     align-items: center;
     justify-content: left;
     /*background-color: rgb(38, 27, 139);*/
-    height: 100px;
+    height: 80px;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 form input, form button {
