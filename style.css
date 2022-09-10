@@ -30,6 +30,11 @@ nav {
     height: 50px;
     list-style: none;
     padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .name-icon {
@@ -40,14 +45,6 @@ nav {
     /* background-color: burlywood; */
     font-size: 12px;
     letter-spacing: 1px;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .icon {
@@ -110,7 +107,7 @@ h2 {
 }
 
 address {
-    font-style: none;
+    font-style: normal;
     font-size: 12px;
     margin-bottom: 10px;
     padding-left: 10px;
@@ -120,7 +117,23 @@ address {
     max-width: 100%;
 }
 
+.filters-feed {
+    /*background-color: blue;*/
+    height: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7em;
+}
+
+.icon-feed {
+    width: 16px;
+}
+
 p {
     font-size: 0.8em;
-    padding: 5px 0 0 10px;
+    padding: 10px 0 0 10px;
 }
