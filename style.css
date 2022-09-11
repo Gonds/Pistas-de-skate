@@ -158,6 +158,7 @@ address {
     justify-content: space-around;
     align-items: center;
     font-size: 0.7em;
+    color: blue;
 }
 
 .icon-feed {
