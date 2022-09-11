@@ -7,7 +7,6 @@
 }
 
 a {
-    color: rgb(27, 27, 27);
     text-decoration: none;
 }
 
@@ -36,6 +35,7 @@ nav {
     font-weight: 900;
     margin-bottom: -20px;
     padding-bottom: 20px;
+    color: rgb(5, 9, 44);
 }
 
 
@@ -49,6 +49,7 @@ h1 {
     justify-content: space-around;
     padding-bottom: 30px;
 }
+
 main {
     padding-top: 40px;
 }
@@ -77,6 +78,7 @@ main {
     font-size: 12px;
     padding-left: 20px;
     letter-spacing: 1px;
+    color: rgb(37, 37, 37);
 }
 
 .icon {
@@ -137,6 +139,10 @@ h2 {
     padding-left: 10px;
 }
 
+.nome-pista {
+    color: rgb(5, 9, 44); ;
+}
+
 address {
     font-style: normal;
     font-size: 12px;
@@ -158,7 +164,7 @@ address {
     justify-content: space-around;
     align-items: center;
     font-size: 0.7em;
-    color: blue;
+    color: rgb(19, 19, 85);
 }
 
 .icon-feed {
