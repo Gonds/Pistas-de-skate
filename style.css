@@ -13,14 +13,11 @@ a {
 
 header {
     position: fixed;
-    width: 30vw;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-left: 35vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.699);
+    background-color: rgb(255, 255, 255);
 }
 
 nav {
