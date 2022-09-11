@@ -13,26 +13,47 @@ a {
 
 header {
     position: fixed;
-    width: 100vw;
-    background-color: #fff;
+    width: 30vw;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.699);
 }
 
 nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     font-weight: 600;
-    height: 50px;
-    border-bottom: 1px solid rgba(201, 201, 201, 0.192);
+    height: 40px;
+    /*border-bottom: 1px solid rgba(201, 201, 201, 0.192);*/
 }
 
 .logo {
     font-size: 25px;
     letter-spacing: -7px;
     font-weight: 900;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+}
+
+
+
+h1 {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.842);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
 }
 main {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .filters {
@@ -43,6 +64,11 @@ main {
     align-items: center;
     overflow-x: auto;
     padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.filter-text {
+    font-weight: 700;
 }
 
 .name-icon {
