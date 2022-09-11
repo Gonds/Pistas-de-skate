@@ -11,6 +11,12 @@ a {
     text-decoration: none;
 }
 
+header {
+    position: fixed;
+    width: 100vw;
+    background-color: #fff;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -24,6 +30,9 @@ nav {
     font-size: 25px;
     letter-spacing: -7px;
     font-weight: 900;
+}
+main {
+    padding-top: 50px;
 }
 
 .filters {
