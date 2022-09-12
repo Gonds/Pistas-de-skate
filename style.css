@@ -163,8 +163,10 @@ address {
     align-items: center;
     padding-bottom: 10px;
     font-size: 0.8em;
+    font-weight: bold;
     color: rgb(19, 19, 85);
     padding-top: 10px;
+    text-decoration: none;
 }
 
 .img-feed {
