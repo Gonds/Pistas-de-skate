@@ -7,9 +7,60 @@
 }
 
 a {
-    color: rgb(27, 27, 27);
     text-decoration: none;
 }
+
+header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style: none;
+}
+
+.hidden-menu {
+    padding: 0;
+}
+
+.item-menu {
+    padding: 0 20px;
+}
+
+nav, .hidden-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    font-size: 30px;
+    letter-spacing: -7px;
+    font-weight: 900;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    color: rgb(5, 9, 44);
+}
+
+
+
+h1 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.842);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+main {
+    padding-top: 40px;
+}
+
 .filters {
     /*background-color: blue;*/
     height: 50px;
@@ -18,7 +69,11 @@ a {
     align-items: center;
     overflow-x: auto;
     padding-bottom: 10px;
-    -webkit-overflow-scrolling: touch;
+    padding-left: 10px;
+}
+
+.filter-text {
+    font-weight: 700;
 }
 
 .name-icon {
@@ -28,10 +83,128 @@ a {
     justify-content: space-around;
     /* background-color: burlywood; */
     font-size: 12px;
+    padding-left: 20px;
     letter-spacing: 1px;
-    padding-left: 30px;
+    color: rgb(37, 37, 37);
 }
 
 .icon {
     width: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    /*background-color: rgb(38, 27, 139);*/
+    height: 80px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em;
+    margin-top: 10px;
+}
+
+form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.164);
+    width: 80vw;
+}
+
+form button {
+    max-width: 30px;
+    max-height: 30px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: white;
+}
+
+.feed {
+    /*background-color: chocolate;*/
+    max-width: 100vw;
+}
+
+article {
+    padding-bottom: 20px;
+    max-width: 100vw;
+    margin-bottom: 20px;
+    /*background-color: chartreuse;*/
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nome-pista {
+    color: rgb(5, 9, 44); ;
+}
+
+address {
+    font-style: normal;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.entrada-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.entrada {
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+    color: rgb(19, 19, 85);
+    padding-top: 10px;
+}
+
+.img-feed {
+    max-width: 100%;
+}
+
+.filters-feed {
+    /*background-color: blue;*/
+    height: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    font-size: 0.7em;
+    color: rgb(19, 19, 85);
+}
+
+.icon-feed {
+    width: 16px;
+    margin-left: 10px;
+}
+
+.descricao {
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding: 0 10px 0 10px;
+    color: rgb(22, 22, 22);
+}
+
+@media (max-width: 400px) {
+    nav, .hidden-menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: blue;
+    }
 }
